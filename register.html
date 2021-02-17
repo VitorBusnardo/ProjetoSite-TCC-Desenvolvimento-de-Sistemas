@@ -9,6 +9,9 @@
     <link href="icomoon/style.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/register.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
 
 </head>
 
@@ -35,15 +38,55 @@
     </header>
 
     <section class="top-content">
-        <div class="maxwidth">
-            <div class="icon-play">
-                <img src="images/icon_play.svg" alt="">
+
+        <form class="login-form" id="top-content-title" >
+       
+
+            <div class="txtb">
+              <input type="text">
+              <span data-placeholder="Name Full"></span>
             </div>
-            <h1 class="top-content-title">Come and meet our enterprise and development company</h1>
-            <h2 class="top-content-subtitle">Come and see our products, we have several options that helped you in
-                whatever you need, covering different areas, let's go meet them!</h2>
-            <a href="#" class="button">Let's Go </a>
-        </div>
+    
+            <div class="txtb">
+              <input type="text">
+              <span data-placeholder="Username"></span>
+            </div>
+            
+            <div class="txtb">
+              <input type="text">
+              <span data-placeholder="Email"></span>
+            </div>
+            
+            <div class="txtb">
+              <input type="text">
+              <span data-placeholder="Telephone"></span>
+            </div>
+            
+            <div class="txtb">
+              <input type="text">
+              <span data-placeholder="Birth Date"></span>
+            </div>
+            
+            <div class="txtb">
+              <input type="text">
+              <span data-placeholder="Password"></span>
+            </div>
+            
+            <div class="txtb">
+              <input type="text">
+              <span data-placeholder="Confirm Password"></span>
+            </div>
+    
+            <input type="submit" class="logbtn" value="Register Now">
+    
+            </div>
+            
+            
+    
+          </form>
+    
+
+
     </section>
 
     <section class="middle-content row">
@@ -180,6 +223,15 @@
             document.documentElement.scrollTop = 0;
 
         }
+
+        $(".txtb input").on("focus",function(){
+        $(this).addClass("focus");
+        });
+
+        $(".txtb input").on("blur",function(){
+        if($(this).val() == "")
+        $(this).removeClass("focus");
+        });
 
     </script>
 
