@@ -5,17 +5,25 @@
     <meta charset="utf-8">
     <title>Projeto TCC</title>
     <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    
 
     <link href="icomoon/style.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/box.css" rel="stylesheet">
 
 </head>
 
 <body>
 
+    <div id="bg"></div>
+<div class="box">
+    <img src="images/Logo1198x670.jpg">
+    <a href="#Top" id="close">X</a>
+</div>
 
-    <header class="top-header clearfix">
+
+    <header id="Top" class="top-header clearfix">
         <div class="maxwidth">
             <img src="images/logo_mob.png" alt="logotipo range Hotels" class="top-header-logo">
 
@@ -23,7 +31,7 @@
                 <ul>
                     <li> <a href="index.html">Home</a></li>
                     <li> <a href="#">About Us</a></li>
-                    <li> <a href="#">Contact</a></li>
+                    <li> <a href="#Contact">Contact</a></li>
                     <li> <a href="#">Curriculum</a></li>
                     <li> <a href="#">Products</a></li>
                     <li> <a href="register.html">Register</a></li>
@@ -114,7 +122,7 @@
                     ask for a small donation in any amount to continue online, thus offering more free products for you.
                 </p>
 
-                <a href="#" class="button">Donate Now</a>
+                <a href="#bg" id="Donate" class="button">Donate Now</a>
             </article>
         </div>
     </section>
@@ -123,10 +131,10 @@
 
     <a onclick="backToTop" href="#" id="fixed" > <img src="images/PlanetEarth.png" alt="" id="planet" > <span class="hidden">Top</span></a>
 
-    <footer class="footer">
+    <footer class="footer" id="Contact" >
         <ul class="footer-menushare">
 
-            <li><a href="#" class="icon-twitter"><span class="hidden">Twitter</span></a></li>
+            <li><a href="#" class="icon-twitter" ><span class="hidden">Twitter</span></a></li>
             <li><a href="#" class="icon-instagram"><span class="hidden">Instagram</span></a></li>
             <li><a href="#" class="icon-github"><span class="hidden">GitHub</span></a></li>
             <li><a href="#" class="icon-linkedin"><span class="hidden">Linkedin</span></a></li>

@@ -10,6 +10,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/register.css" rel="stylesheet">
+    <link href="css/box.css" rel="stylesheet">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
 
@@ -17,8 +18,13 @@
 
 <body>
 
+    <div id="bg"></div>
+    <div class="box">
+        <img src="images/Logo1198x670.jpg">
+        <a href="#Top" id="close">X</a>
+    </div>
 
-    <header class="top-header clearfix">
+    <header id="Top" class="top-header clearfix">
         <div class="maxwidth">
             <img src="images/logo_mob.png" alt="logotipo range Hotels" class="top-header-logo">
 
@@ -157,7 +163,7 @@
                     ask for a small donation in any amount to continue online, thus offering more free products for you.
                 </p>
 
-                <a href="#" class="button">Donate Now</a>
+                <a href="#bg" id="Donate" class="button">Donate Now</a>
             </article>
         </div>
     </section>
