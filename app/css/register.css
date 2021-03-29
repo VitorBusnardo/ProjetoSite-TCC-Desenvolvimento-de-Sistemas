@@ -1,158 +1,139 @@
-
-.login-form{
-  margin: 0;
-  padding: 10px;
-  text-decoration: none;
-  font-family: sans-serif;
-  box-sizing: border-box;
+@charset "UTF-8";
+.login-form {
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
 }
 
-.login-form{
-  width: 360px;
-  background: white;
-  height: 620px;
-  padding: 20px 40px;
-  border-radius: 10px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
+.login-form {
+    width: 360px;
+    background: white;
+    height: 620px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.login-form h1{
-  text-align: center;
-  margin-bottom: 60px;
+.login-form h1 {
+    text-align: center;
+    margin-bottom: 60px;
 }
 
-.txtb{
-  border-bottom: 2px solid black;
-  position: relative;
-  margin: 30px 0;
+.txtb {
+    border-bottom: 2px solid black;
+    position: relative;
+    margin: 30px 0;
 }
 
-.txtb input{
-  font-size: 15px;
-  color: #333;
-  border: none;
-  width: 100%;
-  outline: none;
-  background: none;
-  padding: 0 5px;
-  height: 40px;
+.txtb input {
+    font-size: 15px;
+    color: #333;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
 }
 
-.txtb span::before{
-  content: attr(data-placeholder);
-  position: absolute;
-  top: 50%;
-  left: 5px;
-  color: #adadad;
-  transform: translateY(-50%);
-  z-index: -1;
-  transition: .5s;
+.txtb span::before {
+    content: attr(data-placeholder);
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: .5s;
 }
 
-.txtb span::after{
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 0px;
-  transition: .5s;
+.txtb span::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 0px;
+    transition: .5s;
 }
 
-.focus + span::before{
-  top: -5px;
-}
-.focus + span::after{
-  width: 50%;
-  width: -50%;
+.focus+span::before {
+    top: -5px;
 }
 
-.logbtn{
-  display: block;
-  width: 100%;
-  height: 50px;
-  border: none;
-  background: black;
-  background-size: 200%;
-  color: #fff;
-  outline: none;
-  cursor: pointer;
-  transition: .5s;
+.focus+span::after {
+    width: 50%;
+    width: -50%;
 }
 
-.logbtn:hover{
-  background-position: right;
+.logbtn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    display: block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: .9em 2.5em;
+    background: #58c4c4;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none
 }
 
-.bottom-text{
-  margin-top: 60px;
-  text-align: center;
-  font-size: 13px;
+.bottom-text {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 13px;
 }
 
 .top-content {
-
-  padding: 320px;
-
+    padding: 360px;
 }
 
-#top-content-title{
-  
-  top: 675px;
-
+#top-content-title {
+    top: 675px;
 }
 
-@media screen and (min-width: 48.75em){
-
-  .top-content{
-    padding: 325px;
-    background: #172333;
-  }
-
-  .middle-content{
-
-    display: none;
-  }
-
-  #top-content-title{
-  
-    top: 330px;
-  
-  }
+.logbtn:hover {
+    background: #37a0a0;
 }
 
-
-
-@media screen and (min-width: 62.5em){ /* 1000 / 16 */
-    
-  .top-content{
-    /*
-            background-color:#521a66;
-            background-image: url(../images/bg_topo_1198x670.jpg);
-    */
-            background: #172333 url(../images/Logo1198x670.jpg);
-            background-position: center bottom;
-            height: 20em;
-            padding: 170px;
-            
-        }
+@media screen and (min-width: 48.75em) {
+    .top-content {
+        padding: 325px;
+        background: #172333;
     }
-
-    .middle-content{
-
-      display: block;
+    .middle-content {
+        display: none;
     }
+    #top-content-title {
+        top: 330px;
+    }
+}
 
-  #top-content-title{
+@media screen and (min-width: 62.5em) {
+    .top-content {
+        background: #172333 url(../images/Logo1198x670.jpg);
+        background-position: center bottom;
+        height: 20em;
+        padding: 170px;
+    }
+}
+
+.middle-content {
+    display: block;
+}
+
+#top-content-title {
     color: #172333;
     margin-top: 5em;
-    
-  }
+}
 
-  
-
-  .login-form{
+.login-form {
     width: 360px;
     background: #f1f1f1;
     height: 590px;
@@ -161,69 +142,69 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
-  }
+    transform: translate(-50%, -50%);
+}
 
-  .logbtn{
+.logbtn {
     display: block;
     width: 100%;
     height: 40px;
+    display: block;
     border: none;
-    background: black;
-    background-size: 200%;
-    color: #fff;
     outline: none;
     cursor: pointer;
-    transition: .5s;
-  }
-
-
-
-@media screen and (min-width: 74em){
-  
-  .top-content{
-  background-image: url(../images/Logo1660x1374.jpg);
-  background-position: center bottom;
-  height: 20em;
-  background-position: center top;
-  padding: 233px;
+    padding: .9em 2.5em;
+    background: #58c4c4;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none
 }
 
-  #top-content-title{
-    color: #172333;
-    margin-top: 8.5em;
-  }
-
-  .middle-content{
-
-    display: block;
-
-  }
-
-  .login-form{
-    width: 360px;
-    background: #f1f1f1;
-    height: 620px;
-    padding: 20px 40px;
-    border-radius: 10px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-  }
-  
-  .logbtn{
-    display: block;
-    width: 100%;
-    height: 50px;
-    border: none;
-    background: black;
-    background-size: 200%;
-    color: #fff;
-    outline: none;
-    cursor: pointer;
-    transition: .5s;
-  }
-
+.logbtn:hover {
+    background: #37a0a0;
 }
 
+@media screen and (min-width: 74em) {
+    .top-content {
+        background-image: url(../images/Logo1660x1374.jpg);
+        background-position: center bottom;
+        height: 20em;
+        background-position: center top;
+        padding: 233px;
+    }
+    #top-content-title {
+        color: #172333;
+        margin-top: 8.5em;
+    }
+    .middle-content {
+        display: block;
+    }
+    .login-form {
+        width: 360px;
+        background: #f1f1f1;
+        height: 620px;
+        padding: 20px 40px;
+        border-radius: 10px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .logbtn {
+        display: block;
+        width: 100%;
+        height: 50px;
+        display: block;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: .9em 2.5em;
+        background: #58c4c4;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none
+    }
+    .logbtn:hover {
+        background: #37a0a0;
+    }
+}

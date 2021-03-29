@@ -1,0 +1,224 @@
+@charset "UTF-8";
+html {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    font-family: "Oxygen";
+}
+
+* {
+    box-sizing: border-box;
+    transition: 0.35s ease;
+}
+
+.curriculum-block {
+    display: block;
+    position: relative;
+    margin: auto;
+}
+
+.curriculum-inline {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+}
+
+.floated {
+    display: inline-block;
+    position: relative;
+    margin: false;
+}
+
+.abs-center {
+    display: false;
+    position: absolute;
+    margin: false;
+    top: 50%;
+    left: 50%;
+    right: false;
+    bottom: false;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 88%;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+.justified {
+    text-align: justify;
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #000;
+}
+
+h3 {
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #000;
+}
+
+.page {
+    width: 90%;
+    max-width: 1200px;
+    margin: 80px auto;
+    background-color: #fff;
+    box-shadow: 6px 10px 28px 0px rgba(0, 0, 0, 0.4);
+}
+
+.top-bar {
+    height: 220px;
+    background-color: #303d4c;
+    color: #fff;
+}
+
+.name {
+    display: false;
+    position: absolute;
+    margin: false;
+    top: false;
+    left: calc(350px + 5%);
+    right: 0;
+    bottom: 0;
+    height: 120px;
+    text-align: center;
+    font-size: 58px;
+    letter-spacing: 8px;
+    font-weight: 100;
+    line-height: 60px;
+}
+
+.name div {
+    width: 94%;
+}
+
+.side-bar {
+    display: false;
+    position: absolute;
+    margin: false;
+    top: 60px;
+    left: 5%;
+    right: false;
+    bottom: 0;
+    width: 350px;
+    background-color: #ddd;
+    padding: 300px 50px 50px;
+}
+
+.mugshot {
+    display: false;
+    position: absolute;
+    margin: false;
+    top: 50px;
+    left: 70px;
+    right: false;
+    bottom: false;
+    height: 100px;
+    width: 100px;
+}
+
+.mugshot .logo {
+    margin: -23px;
+}
+
+.logo {
+    display: false;
+    position: absolute;
+    margin: false;
+    top: 0;
+    left: 0;
+    right: false;
+    bottom: false;
+    z-index: 100;
+    margin: 0;
+    color: #000;
+    height: 200px;
+    width: 200px;
+}
+
+.logo .logo-text {
+    display: false;
+    position: absolute;
+    margin: false;
+    top: 58%;
+    left: 0;
+    right: 16%;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 55px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    line-height: 58px;
+}
+
+.side-header {
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 10px auto 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #303d4c;
+}
+
+.list-thing {
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+
+.content-container {
+    margin-right: 0;
+    width: calc(95% - 350px);
+    padding: 25px 40px 50px;
+}
+
+.content-container>* {
+    margin: 0 auto 25px;
+}
+
+.content-container>h3 {
+    margin: 0 auto 5px;
+}
+
+.content-container>p.long-margin {
+    margin: 0 auto 50px;
+}
+
+.title {
+    width: 80%;
+    text-align: center;
+}
+
+.separator {
+    width: 240px;
+    height: 2px;
+    background-color: #303d4c;
+}
+
+.greyed {
+    background-color: #ddd;
+    width: 100%;
+    max-width: 2080px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+@media screen and (max-width: 1150px) {
+    .name {
+        color: #fff;
+        font-size: 38px;
+        letter-spacing: 6px;
+        font-weight: 100;
+        line-height: 48px;
+    }
+}

@@ -1,42 +1,21 @@
 @charset "UTF-8";
-
-
 @keyframes neon {
-
     from {
-
         filter: drop-shadow(0 0 0 var(--cor-neon));
-
     }
     to {
-
         filter: drop-shadow(0 0 30px var(--cor-neon));
-
-    } 
-
+    }
 }
-    
+
 img {
-
     animation: neon 3s alternate infinite ease-in-out;
-
 }
 
-.texto{
-
+.texto {
     --cor-neon: #000000;
 }
 
-.caixa{
-
+.caixa {
     --cor-neon: #000000;
 }
-    
-    
-    
-    
-    
-    
-    
-
-

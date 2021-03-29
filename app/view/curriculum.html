@@ -1,0 +1,112 @@
+﻿<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Projeto TCC</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="sortcut icon" href="/app/images/IconPlanetEarth.png" />
+
+    <link href="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/icomoon/style.css" rel="stylesheet">
+    <link href="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/css/normalize.css" rel="stylesheet">
+    <link href="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/css/main.css" rel="stylesheet">
+    <link href="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/css/box.css" rel="stylesheet">
+    <link href="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/css/curriculum.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="bg"></div>
+    <div class="box">
+        <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/Logo1198x670.jpg">
+        <a href="#Top" id="close">X</a>
+    </div>
+
+
+    <header id="Top" class="top-header clearfix">
+        <div class="maxwidth">
+            <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/LogoTecb.png" class=" top-header-logo ">
+
+            <nav class="top-nav ">
+                <ul>
+                    <li> <a href="home.html ">Home</a></li>
+                    <li> <a href="#contact ">Contact</a></li>
+                    <li> <a href="curriculum.html ">Curriculum</a></li>
+                    <li> <a href="products.html ">Products</a></li>
+                    <li> <a href="register.html ">Register</a></li>
+                    <li> <a href="services.html ">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <a href="https://api.whatsapp.com/send?phone=5517981806259&text=Ol%C3%A1,%20estou%20interessado%20em%20seus%20SERVISOS!%20"> <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/Whatsapp.png" alt="" id="whatsapp"> </a>
+
+    <a onclick="backToTop" href="#" id="fixed"> <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/PlanetEarth.png" alt="" id="planet"> <span class="hidden">Top</span></a>
+
+    <footer class="footer " id="contact">
+        <ul class="footer-menushare ">
+
+            <li><a href="# " class="icon-twitter "><span class="hidden ">Twitter</span></a></li>
+            <li><a href="# " class="icon-instagram "><span class="hidden ">Instagram</span></a></li>
+            <li><a href="https://github.com/VitorBusnardo " class="icon-github "><span class="hidden ">GitHub</span></a></li>
+            <li><a href="# " class="icon-linkedin "><span class="hidden ">Linkedin</span></a></li>
+            <li><a href="# " class="icon-paypal "><span class="hidden ">PayPal</span></a></li>
+
+        </ul>
+
+        <p>Copyright © 2020 All Rights Reserved</p> <br>
+        <p>
+            Vitor Busnardo - Developer ( Front - End / Back - End ) +55 17 981806259
+        </p>
+
+        <p>
+            busnardovitor@gmail.com
+        </p>
+
+        <p>
+            Paulo Santos - Developer ( Front - End / Back - End ) +55 17 997263634
+        </p>
+
+        <p>
+            ps0465882@gmail.com
+        </p>
+    </footer>
+
+    <script>
+        window.onscroll = function() {
+
+            scroll();
+
+        };
+
+        function scroll() {
+
+            let btn = document.getElementById("fixed ");
+            if (document.documentElement.scrollTop > 50) {
+
+                btn.style.display = "block ";
+
+            } else {
+
+                btn.style.display = "none ";
+
+            }
+
+        }
+
+        function backToTop() {
+
+            document.documentElement.scrollTop = 0;
+
+        }
+    </script>
+
+
+</body>
+
+</html>
