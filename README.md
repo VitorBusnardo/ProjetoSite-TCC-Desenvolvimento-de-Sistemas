@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
-<p align="left"> 
+<p align="justify"> 
    O Serviço web é integrado novamente com diversos serviços e funções diferenciadas, desenvolvidas para uma interação e uma experiência maravilhosa. Acessando a plataforma conseguimos visualizar outros trabalhos realizados por nós, também é oferecido outros serviços na área de desenvolvimento. O grande objetivo é mostrar que somos qualificados para o mercado de trabalho, demonstrando de uma maneira prática, com um design incrível e bem revolucionário, assim esse conjunto também nosso currículo. Portanto atuando junto com o serviço desktop, descrito no outro repositório. Para ter acesso a mais infomações e prévias realize o download do Artigo do projeto.
 
 
@@ -22,7 +22,8 @@
 
 <p align="left">
   <a href="#" alt="Gmail">
-  <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=LINK-DO-SEU-EMAIL" /></a>
+  <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=LINK-DO-SEU-EMAIL" /></a>![computer-illustration](https://user-images.githubusercontent.com/75642129/144097414-80dcfcd7-badd-4fb9-b2e2-8940c1dd68ba.png)
+
 
   <a href="#" alt="Linkedin">
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" /></a>
@@ -41,5 +42,27 @@
 
 ```
 https://www.mediafire.com/file/qqcj1qmgf730xgu/Artigo_SyTecb.docx/file
+```
+
+<h3> :monocle_face: &nbsp;Banco para realização de Cadastros dentro do Serviço</h3>
+
+```
+create database if not exists usuarios_sytecb;
+
+use usuarios_sytecb;
+
+create table usuario(
+id integer primary key not null auto_increment,
+nome varchar(100) not null,
+sobrenome varchar(100) not null,
+email varchar(100) not null unique,
+nomeUsuario varchar(100) not null unique,
+senha varchar(100) not null,
+telefone varchar(100) not null unique
+) default charset = utf8 ;
+
+insert into Usuario values (null, 'Vitor', 'Busnardo', 'busnardovitor@gmail.com', 'Admin', 'admin', '17981806259');
+
+select * from usuario;
 ```
 
