@@ -3,7 +3,7 @@
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
 <p align="left"> 
-   O Serviço web é integrado novamente com diversos serviços e funções diferenciadas, desenvolvidas para uma interação e uma experiência maravilhosa. Acessando a plataforma conseguimos visualizar outros trabalhos realizados por nós, também é oferecido outros serviços na área de desenvolvimento. O grande objetivo é mostrar que somos qualificados para o mercado de trabalho, demonstrando de uma maneira prática, com um design incrível e bem revolucionário, assim esse conjunto também nosso currículo, ele atua em conjunto com a aplicação desktop.
+   O Serviço web é integrado novamente com diversos serviços e funções diferenciadas, desenvolvidas para uma interação e uma experiência maravilhosa. Acessando a plataforma conseguimos visualizar outros trabalhos realizados por nós, também é oferecido outros serviços na área de desenvolvimento. O grande objetivo é mostrar que somos qualificados para o mercado de trabalho, demonstrando de uma maneira prática, com um design incrível e bem revolucionário, assim esse conjunto também nosso currículo. Portanto atuando junto com o serviço desktop, descrito no outro repositório. Para ter acesso a mais infomações e prévias realize o download do Artigo do projeto.
 
 
 </p>
