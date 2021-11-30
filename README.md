@@ -17,7 +17,7 @@
 </p>
 
 <p align="left">
-  :art: Padrão de Projeto: <strong>MVC (Model–view–controller). </strong>
+  :art: Padrão de Projeto: <strong>MVC (Model–View–Controller). </strong>
 </p>
 
 <p align="left">
