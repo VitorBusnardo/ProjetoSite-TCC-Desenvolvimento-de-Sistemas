@@ -17,6 +17,10 @@
 </p>
 
 <p align="left">
+  :art: Padrão de Projeto: <strong>MVC (Model–view–controller). </strong>
+</p>
+
+<p align="left">
   💌 Entre em contato comigo através das plataformas abaixo: ⤵️
 </p>
 
@@ -43,7 +47,7 @@
 https://www.mediafire.com/file/qqcj1qmgf730xgu/Artigo_SyTecb.docx/file
 ```
 
-<h3> :monocle_face: &nbsp;Banco para realização de Cadastros dentro do Serviço</h3>
+<h3> :monocle_face: &nbsp;Banco Necessário para Realização de Cadastros na Aplicação</h3>
 
 ```
 create database if not exists usuarios_sytecb;
