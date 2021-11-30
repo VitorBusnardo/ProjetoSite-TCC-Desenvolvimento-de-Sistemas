@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sy-Tecb</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="sortcut icon" href="app/images/IconPlanetEarth.png" />
+
+    <link href="app/icomoon/style.css" rel="stylesheet">
+    <link href="app/css/normalize.css" rel="stylesheet">
+    <link href="app/css/main.css" rel="stylesheet">
+    <link href="app/css/box.css" rel="stylesheet">
+    <link href="app/css/boxRegistro.css" rel="stylesheet">
+    <link href="app/icomoon/style.css" rel="stylesheet">
+    <link href="app/css/normalize.css" rel="stylesheet">
+    <link href="app/css/main.css" rel="stylesheet">
+    <link href="app/css/boxRegistro.css" rel="stylesheet">
+    <link href="app/css/registro.css" rel="stylesheet">
+    <link href="app/css/grid.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="app/js/FileSaver.js"></script>
+</head>
+
+<body>
+
+    <div id="bg"></div>
+    <div class="box">
+        <img src="app/images/Logo1198x670.jpg">
+        <a href="#Top" id="close">X</a>
+    </div>
+
+
+    <header id="Top" class="top-header clearfix">
+        <div class="maxwidth">
+
+            <img src="app/images/LogoTecb.png" class="top-header-logo">
+
+            <nav class="top-nav">
+                <ul>
+                    <li> <a href="?pagina=Home">Inicio</a></li>
+                    <li> <a href="#contact">Contatos</a></li>
+                    <li> <a href="?pagina=products">Produtos</a></li>
+                    <li> <a href="?pagina=services">Serviços</a></li>
+                    <li> <a href="?pagina=curriculum">Curriculos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+{{area dinamica}}
+
+<footer class="footer" id="contact">
+    <ul class="footer-menushare">
+
+        <li><a href="#" class="icon-twitter"><span class="hidden">Twitter</span></a></li>
+        <li><a href="#" class="icon-instagram"><span class="hidden">Instagram</span></a></li>
+        <li><a href="https://github.com/VitorBusnardo" class="icon-github"><span class="hidden">GitHub</span></a></li>
+        <li><a href="#" class="icon-linkedin"><span class="hidden">Linkedin</span></a></li>
+        <li><a href="#" class="icon-paypal"><span class="hidden">PayPal</span></a></li>
+    </ul>
+
+    <p>Copyright © 2020 All Rights Reserved</p><br>
+    <p>Vitor Busnardo - Desenvolvedor ( Front - End / Back - End ) +55 17 981806259</p>
+    <p>busnardovitor@gmail.com</p>
+    <p>Paulo Henrique - Desenvolvedor ( Front - End / Back - End ) +55 17 997263634</p>
+    <p>ps0465882@gmail.com</p>
+</footer>
+
+<script>
+
+    window
+
+    window.onscroll = function() {
+
+        scroll();
+
+    };
+
+
+    function scroll() {
+
+        let btn = document.getElementById("fixed");
+        if (document.documentElement.scrollTop > 50) {
+
+            btn.style.display = "block";
+
+        } else {
+
+            btn.style.display = "none";
+
+        }
+
+    }
+
+    function backToTop() {
+
+        document.documentElement.scrollTop = 0;
+
+    }
+</script>
+
+<link src="app/js/contador.js" rel="stylesheet">
+
+</body>
+
+</html>

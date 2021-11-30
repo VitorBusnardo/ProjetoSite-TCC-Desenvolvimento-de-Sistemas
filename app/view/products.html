@@ -1,228 +1,272 @@
-﻿<!doctype html>
-<html lang="pt-br">
+﻿<div id="dv-modal" class="modal">
+    <div class="modal-content">
+        <center>
+            <div class="modal-body" style="
+                padding-top: 1px;
+                padding-bottom: 24px;
+                ">
+                <form class="form-register" method="POST" action="?pagina=products&metodo=insert">
 
-<head>
-    <meta charset="utf-8">
-    <title>Projeto TCC</title>
+                    <h2 class="form__titulo">CRIAR CONTA</h2>
 
-    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+                    <div class="contenedor-inputs">
 
-    <link rel="sortcut icon" href="/app/images/IconPlanetEarth.png" />
+                        <input type="text" name="name" placeholder="Nome" class="input-100" required>
 
-    <link href="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/icomoon/style.css" rel="stylesheet">
-    <link href="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/css/normalize.css" rel="stylesheet">
-    <link href="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/css/main.css" rel="stylesheet">
-    <link href="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/css/box.css" rel="stylesheet">
-    <link href="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/css/neon.css" rel="stylesheet">
+                        <input type="text" name="lastname" placeholder="Sobrenome" class="input-100" required>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                        <input type="text" name="username" placeholder="Nome de usuario" class="input-100" required>
 
-</head>
+                        <input type="email" name="email" placeholder="E-mail" class="input-100" required>
 
-<body>
+                        <input type="password" name="password" placeholder="Senha" class="input-100" required>
 
-    <header id="Top" class="top-header clearfix">
-        <div class="maxwidth">
+                        <input type="text" name="tel" placeholder="Telefone" class="input-100" required>
 
-            <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/LogoTecb.png" class="top-header-logo">
+                        <input type="submit" value="Registrar" class="btn-enviar" href="../images/Cat.png" onclick="Baixar('[wm-moderno]')" wm-moderno>
 
-            <nav class="top-nav">
-                <ul>
-                    <li> <a href="home.html">Home</a></li>
-                    <li> <a href="#contact">Contact</a></li>
-                    <li> <a href="curriculum.html">Curriculum</a></li>
-                    <li> <a href="#product-icon">Products</a></li>
-                    <li> <a href="register.html">Register</a></li>
-                    <li> <a href="services.html">Services</a></li>
-                </ul>
-            </nav>
+
+                        <p class="form_link" href="#Top" onclick="openModalForm('dv-modal')">Já Possui Conta?<a href="#Top"> Click AQUI!</a></p>
+
+                </form>
+        </center>
+    </div>
+</div>
+</div>
+<section class="top-content">
+    <div class="maxwidth">
+        <div class="icon-play">
+            <img src="app/images/icon_play.svg" alt="">
         </div>
+        <h1 class="top-content-title">Venha conhecer nossa empresa de empreendimentos e desenvolvimento</h1>
+        <h2 class="top-content-subtitle">Venha ver nossos produtos, temos várias opções que ajudaram você em qualquer coisa você precisa, cobrindo diferentes áreas, vamos encontrá-los!</h2>
+        <a href="#" class="button">Vamos </a>
+    </div>
+</section>
 
-    </header>
+<section class="middle-content row">
+    <div class="maxwidth">
+        <article class="col-1_4">
+            <h3 class="middle-content-title-numeric">
+                <div class="contador">54</div>
+            </h3>
+            <h3 class="middle-content-title">Serviços entregues</h3>
+        </article>
 
-    <section class="top-content">
-        <div class="maxwidth">
-            <div class="icon-play">
-                <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/icon_play.svg" alt="">
-            </div>
-            <h1 class="top-content-title">Come and meet our enterprise and development company</h1>
-            <h2 class="top-content-subtitle">Come and see our products, we have several options that helped you in whatever you need, covering different areas, let's go meet them!</h2>
-            <a href="#" class="button">Let's Go </a>
-        </div>
-    </section>
+        <article class="col-1_4">
+            <h3 class="middle-content-title-numeric">
+                <div class="contador">200</div>
+            </h3>
+            <h3 class="middle-content-title">Todos os downloads</h3>
+        </article>
 
-    <section class="middle-content row">
-        <div class="maxwidth">
-            <article class="col-1_4">
-                <h3 class="middle-content-title-numeric">
-                    <div class="contador">54</div>
-                </h3>
-                <h3 class="middle-content-title">Services Delivered</h3>
-            </article>
+        <article class="col-1_4">
+            <h3 class="middle-content-title-numeric">
+                <div class="contador">323</div>
+            </h3>
+            <h3 class="middle-content-title">Todas as doações</h3>
+        </article>
 
-            <article class="col-1_4">
-                <h3 class="middle-content-title-numeric">
-                    <div class="contador">200</div>
-                </h3>
-                <h3 class="middle-content-title">All Downloads</h3>
-            </article>
-
-            <article class="col-1_4">
-                <h3 class="middle-content-title-numeric">
-                    <div class="contador">323</div>
-                </h3>
-                <h3 class="middle-content-title">All Donates</h3>
-            </article>
-
-            <article class="col-1_4">
-                <h3 class="middle-content-title-numeric">
-                    <div class="contador">72</div>
-                </h3>
-                <h3 class="middle-content-title">Contracted Services</h3>
-            </article>
-        </div>
-    </section>
+        <article class="col-1_4">
+            <h3 class="middle-content-title-numeric">
+                <div class="contador">72</div>
+            </h3>
+            <h3 class="middle-content-title">Serviços Contratados</h3>
+        </article>
+    </div>
+</section>
 
 
-    <section class="main-content row">
-        <div class="maxwidth">
+<section class="main-content row">
+    <div class="maxwidth">
 
-            <article class="main-content-article clearfix col-1_2">
-                <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/PlanetAzul.png" id="product-icon">
-                <h3 class="main-content-title"> Intermedix</h3>
-                <p>Intermedix is ​​a desktop program, developed in java, that has the functionality to manage and administer your business. It stores information about your company, for the generation of reports, graphs, among others.
+        <article class="main-content-article clearfix col-1_2">
+            <img src="app/images/PlanetAzul.png" id="product-icon">
+            <h3 class="main-content-title"> Intermedix</h3>
+            <p>Intermedix é um programa de desktop, desenvolvido em java, que tem a funcionalidade de gerenciar e administrar seu negócio. Ele armazena informações sobre sua empresa, para a geração de relatórios, gráficos, entre Outros.
+            </p>
+            <a href="#" onclick="openModal('dv-modal')" class="button"> Baixar</a>
+        </article>
 
-                </p>
-                <a href="#" class="button"> Download </a>
-            </article>
+        <article id="Planets" class="main-content-article clearfix col-1_2">
+            <img src="app/images/PlanetVermelho.png" id="product-icon">
+            <h3 class="main-content-title">Em Desenvolvimento</h3>
+            <p>Este produto ainda está em desenvolvimento, por favor, espere um pouco. Nós garantimos que em breve lançaremos mais e mais produtos para você, com qualidade e segurança. Você pode ter certeza de que tudo será completamente livre.
+            </p>
+            <a href="#" class="button"> Baixar </a>
+        </article>
 
-            <article id="Planets" class="main-content-article clearfix col-1_2">
-                <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/PlanetVermelho.png" id="product-icon">
-                <h3 class="main-content-title"> In Development</h3>
-                <p>This product is still in development, please wait for a while. We guarantee that soon we will launch more and more products for you, with quality and safety. You can be sure that everything will be completely free.
-                </p>
-                <a href="#" class="button"> Download </a>
-            </article>
+        <article class="main-content-article clearfix col-1_2">
+            <img src="app/images/PlanetVermelhoClaro.png" id="product-icon">
+            <h3 class="main-content-title"> Em Desenvolvimento</h3>
+            <p>Este produto ainda está em desenvolvimento, por favor, espere um pouco. Nós garantimos que em breve lançaremos mais e mais produtos para você, com qualidade e segurança. Você pode ter certeza de que tudo será completamente livre.
+            </p>
+            <a href="#" class="button"> Baixar </a>
+        </article>
 
-            <article class="main-content-article clearfix col-1_2">
-                <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/PlanetVermelhoClaro.png" id="product-icon">
-                <h3 class="main-content-title"> In Development</h3>
-                <p>This product is still in development, please wait for a while. We guarantee that soon we will launch more and more products for you, with quality and safety. You can be sure that everything will be completely free.
-                </p>
-                <a href="#" class="button"> Download </a>
-            </article>
+        <article class="main-content-article clearfix col-1_2">
+            <img src="app/images/PlanetLaranja.png" id="product-icon">
+            <h3 class="main-content-title"> Em Desenvolvimento</h3>
+            <p>Este produto ainda está em desenvolvimento, por favor, espere um pouco. Nós garantimos que em breve lançaremos mais e mais produtos para você, com qualidade e segurança. Você pode ter certeza de que tudo será completamente livre.
+            </p>
+            <a href="#" class="button"> Baixar </a>
+        </article>
 
-            <article class="main-content-article clearfix col-1_2">
-                <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/PlanetLaranja.png" id="product-icon">
-                <h3 class="main-content-title"> In Development</h3>
-                <p>This product is still in development, please wait for a while. We guarantee that soon we will launch more and more products for you, with quality and safety. You can be sure that everything will be completely free.
-                </p>
-                <a href="#" class="button"> Download </a>
-            </article>
+        <article class="main-content-article clearfix col-1_2">
+            <img src="app/images/PlanetVermelhoClaro.png" id="product-icon">
+            <h3 class="main-content-title"> Em Desenvolvimento</h3>
+            <p>Este produto ainda está em desenvolvimento, por favor, espere um pouco. Nós garantimos que em breve lançaremos mais e mais produtos para você, com qualidade e segurança. Você pode ter certeza de que tudo será completamente livre.
+            </p>
+            <a href="#" class="button"> Baixar </a>
+        </article>
 
-            <article class="main-content-article clearfix col-1_2">
-                <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/PlanetVermelho.png" id="product-icon">
-                <h3 class="main-content-title"> In Development</h3>
-                <p>This product is still in development, please wait for a while. We guarantee that soon we will launch more and more products for you, with quality and safety. You can be sure that everything will be completely free.
-                </p>
-                <a href="#" class="button"> Download </a>
-            </article>
+        <article class="main-content-article clearfix col-1_2">
+            <img src="app/images/PlanetAmareloClaro.png" id="product-icon">
+            <h3 class="main-content-title"> Em Desenvolvimento</h3>
+            <p>Este produto ainda está em desenvolvimento, por favor, espere um pouco. Nós garantimos que em breve lançaremos mais e mais produtos para você, com qualidade e segurança. Você pode ter certeza de que tudo será completamente livre.
+            </p>
+            <a href="#" class="button"> Baixar </a>
+        </article>
 
-            <article class="main-content-article clearfix col-1_2">
-                <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/PlanetAmareloClaro.png" id="product-icon">
-                <h3 class="main-content-title"> In Development</h3>
-                <p>This product is still in development, please wait for a while. We guarantee that soon we will launch more and more products for you, with quality and safety. You can be sure that everything will be completely free.
-                </p>
-                <a href="#" class="button"> Download </a>
-            </article>
+        <article class="main-content-article clearfix col-1_2">
+            <img src="app/images/PlanetLaranjaAmarelo.png" id="product-icon">
+            <h3 class="main-content-title"> Em Desenvolvimento</h3>
+            <p>Este produto ainda está em desenvolvimento, por favor, espere um pouco. Nós garantimos que em breve lançaremos mais e mais produtos para você, com qualidade e segurança. Você pode ter certeza de que tudo será completamente livre.
+            </p>
+            <a href="#" class="button"> Baixar </a>
+        </article>
 
-            <article class="main-content-article clearfix col-1_2">
-                <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/PlanetLaranjaAmarelo.png" id="product-icon">
-                <h3 class="main-content-title"> In Development</h3>
-                <p>This product is still in development, please wait for a while. We guarantee that soon we will launch more and more products for you, with quality and safety. You can be sure that everything will be completely free.
-                </p>
-                <a href="#" class="button"> Download </a>
-            </article>
+        <article class="main-content-article clearfix col-1_2">
+            <img src="app/images/PlanetMoon.png" id="product-icon">
+            <h3 class="main-content-title"> Em Desenvolvimento</h3>
+            <p>Este produto ainda está em desenvolvimento, por favor, espere um pouco. Nós garantimos que em breve lançaremos mais e mais produtos para você, com qualidade e segurança. Você pode ter certeza de que tudo será completamente livre.
+            </p>
+            <a href="#" class="button"> Baixar </a>
+        </article>
 
-            <article class="main-content-article clearfix col-1_2">
-                <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/PlanetMoon.png" id="product-icon">
-                <h3 class="main-content-title"> In Development</h3>
-                <p>This product is still in development, please wait for a while. We guarantee that soon we will launch more and more products for you, with quality and safety. You can be sure that everything will be completely free.
-                </p>
-                <a href="#" class="button"> Download </a>
-            </article>
+        <article class="main-content-article clearfix col-1_2">
+            <img src="app/images/PlanetAzulClaro.png" id="product-icon">
+            <h3 class="main-content-title"> Em Desenvolvimento</h3>
+            <p>Este produto ainda está em desenvolvimento, por favor, espere um pouco. Nós garantimos que em breve lançaremos mais e mais produtos para você, com qualidade e segurança. Você pode ter certeza de que tudo será completamente livre.
+            </p>
+            <a href="#" class="button"> Baixar </a>
+        </article>
 
-            <article class="main-content-article clearfix col-1_2">
-                <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/PlanetAzulClaro.png" id="product-icon">
-                <h3 class="main-content-title"> In Development</h3>
-                <p>This product is still in development, please wait for a while. We guarantee that soon we will launch more and more products for you, with quality and safety. You can be sure that everything will be completely free.
-                </p>
-                <a href="#" class="button"> Download </a>
-            </article>
+        <article class="main-content-article clearfix col-1_2">
+            <img src="app/images/PlanetAmarelo.png" id="product-icon">
+            <h3 class="main-content-title"> Em Desenvolvimento</h3>
+            <p>Este produto ainda está em desenvolvimento, por favor, espere um pouco. Nós garantimos que em breve lançaremos mais e mais produtos para você, com qualidade e segurança. Você pode ter certeza de que tudo será completamente livre.
+            </p>
+            <a href="#" class="button"> Baixar </a>
+        </article>
 
-            <article class="main-content-article clearfix col-1_2">
-                <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/PlanetAmarelo.png" id="product-icon">
-                <h3 class="main-content-title"> In Development</h3>
-                <p>This product is still in development, please wait for a while. We guarantee that soon we will launch more and more products for you, with quality and safety. You can be sure that everything will be completely free.
-                </p>
-                <a href="#" class="button"> Download </a>
-            </article>
+    </div>
+</section>
 
-        </div>
-    </section>
+<a
+    href="https://api.whatsapp.com/send?phone=5517981806259&text=Ol%C3%A1,%20estou%20interessado%20em%20seus%20SERVISOS!%20">
+    <img src="../images/Whatsapp.png" alt="" id="whatsapp"> </a>
 
-    <a href="https://api.whatsapp.com/send?phone=5517981806259&text=Ol%C3%A1,%20estou%20interessado%20em%20seus%20SERVISOS!%20"> <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/Whatsapp.png" alt="" id="whatsapp"> </a>
+<a onclick="backToTop" href="#" id="fixed"> <img src="app/images/PlanetEarth.png" alt="" id="planet"> <span
+        class="hidden">Top</span></a>
 
-    <a onclick="backToTop" href="#" id="fixed"> <img src="d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/images/PlanetEarth.png" alt="" id="planet"> <span class="hidden">Top</span></a>
 
-    <footer class="footer" id="contact">
-        <ul class="footer-menushare">
+<script>
+    window.onscroll = function () {
 
-            <li><a href="#" class="icon-twitter"><span class="hidden">Twitter</span></a></li>
-            <li><a href="#" class="icon-instagram"><span class="hidden">Instagram</span></a></li>
-            <li><a href="https://github.com/VitorBusnardo" class="icon-github"><span class="hidden">GitHub</span></a></li>
-            <li><a href="#" class="icon-linkedin"><span class="hidden">Linkedin</span></a></li>
-            <li><a href="#" class="icon-paypal"><span class="hidden">PayPal</span></a></li>
-        </ul>
+        scroll();
 
-        <p>Copyright © 2020 All Rights Reserved</p><br>
-        <p>Vitor Busnardo - Developer ( Front - End / Back - End ) +55 17 981806259</p>
-        <p>busnardovitor@gmail.com</p>
-        <p>Paulo Santos - Developer ( Front - End / Back - End ) +55 17 997263634</p>
-        <p>ps0465882@gmail.com</p>
-    </footer>
+    };
+    function ativaContador(e) {
 
-    <script>
-        window.onscroll = function() {
+        $('.contador').each(function () {
+            $(this).prop('Counter', 0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 8000,
+                easing: 'swing',
+                step: function (now) {
 
-            scroll();
+                    $(this).text(Math.ceil(now));
+                },
+                complete: function () {
+                    $(this).stop(true, true)
+                },
+            });
 
-        };
+        });
+    }
 
-        function scroll() {
+    $(window).scroll(function (e) {
 
-            let btn = document.getElementById("fixed");
-            if (document.documentElement.scrollTop > 50) {
+        var alturaBody = $(window).height();
+        var distanciaElemento = $('.contador').offset().top;
+        var posicaoScroll = $(this).scrollTop();
+        var alturaElemento = $('.contador').outerHeight();
 
-                btn.style.display = "block";
+        if (posicaoScroll > (distanciaElemento + alturaElemento - alturaBody)) {
+            ativaContador();
+        }
 
-            } else {
+    });
 
-                btn.style.display = "none";
+    function scroll() {
 
-            }
+        let btn = document.getElementById("fixed");
+        if (document.documentElement.scrollTop > 50) {
+
+            btn.style.display = "block";
+
+        } else {
+
+            btn.style.display = "none";
 
         }
 
-        function backToTop() {
+    }
+    function openModal(mn) {
+        let modal = document.getElementById(mn);
 
-            document.documentElement.scrollTop = 0;
+        if (typeof modal == 'undefined' || modal === null)
+            return;
 
+        modal.style.display = 'Block';
+       
+
+    }
+
+    function openModalForm(Componente) {
+        let componente = document.getElementById(Componente);
+        if(typeof componente == 'undefined' || componente === null) {
+            return;
         }
-    </script>
+        componente.sytle.display = 'none';
+        document.body.sytle.overflow = 'visible';
+    }
+    function openModalForm(mn) {
+        let modal = document.getElementById(mn);
 
-    <script src='d:/Users/USUARIO\Documents/ProjetoSite-TCC-Desenvolvimento-de-Sistemas/app/js/contador.js'></script>
+        if (typeof modal == 'undefined' || modal === null)
+            return;
 
-</body>
+        modal.style.display = 'none';
+        
 
-</html>
+    }
+
+    function closeModal(mn) {
+        let modal = document.getElementById(mn);
+
+        if (typeof modal == 'undefined' || modal === null)
+            return;
+
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    function backToTop() {
+
+        document.documentElement.scrollTop = 0;
+
+    }
+</script>

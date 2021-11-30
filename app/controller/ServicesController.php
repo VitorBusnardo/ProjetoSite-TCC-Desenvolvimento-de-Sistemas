@@ -1,12 +1,11 @@
 <?php
 
-    class HomeController
+    class ServicesController
     {
         public function index()
         {
-            $templete = file_get_contents('app/view/home.html');
+            $templete = file_get_contents('app/view/services.html');
 
             echo $templete;
-
         }
     }
