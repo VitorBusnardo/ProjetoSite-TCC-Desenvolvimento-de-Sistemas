@@ -1,6 +1,6 @@
 # Projeto Site - Desenvolvimento de Sistemas
 
-<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
+<img src="https://lh4.googleusercontent.com/ZiZbnax-K7GTedLqSp4wAMkhgNRHOxovPBPJ-6PdtMfr6PXLuKob7-S03wQkBcvi013Skd9LgsT7b5qnUmacQ_n779hqo8SStX-7N9TkPnvRVLm71OISkX8xTooXe29h20LcTkzv" max-width="400px" width="400px" height="220px" align="right" alt="Computador iuriCode">
 
 <p align="justify"> 
    O Serviço web é integrado novamente com diversos serviços e funções diferenciadas, desenvolvidas para uma interação e uma experiência maravilhosa. Acessando a plataforma conseguimos visualizar outros trabalhos realizados por nós, também é oferecido outros serviços na área de desenvolvimento. O grande objetivo é mostrar que somos qualificados para o mercado de trabalho, demonstrando de uma maneira prática, com um design incrível e bem revolucionário, assim esse conjunto também nosso currículo. Portanto atuando junto com o serviço desktop, descrito no outro repositório. Para ter acesso a mais infomações e prévias realize o download do Artigo do projeto.
